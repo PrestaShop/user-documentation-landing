@@ -61,6 +61,7 @@
         <a
           href="https://github.com/PrestaShop/user-documentation-en"
           target="_blank"
+          rel="noreferrer"
         >
           English
         </a>
@@ -68,6 +69,7 @@
         <a
           href="https://github.com/PrestaShop/user-documentation-fr"
           target="_blank"
+          rel="noreferrer"
         >
           French
         </a>
@@ -75,6 +77,7 @@
         <a
           href="https://github.com/PrestaShop/user-documentation-es"
           target="_blank"
+          rel="noreferrer"
         >
           Spanish
         </a>
@@ -82,6 +85,7 @@
         <a
           href="https://github.com/PrestaShop/user-documentation-it"
           target="_blank"
+          rel="noreferrer"
         >
           Italian
         </a>
@@ -89,6 +93,7 @@
         <a
           href="https://github.com/PrestaShop/user-documentation-nl"
           target="_blank"
+          rel="noreferrer"
         >
           Dutch
         </a>
@@ -96,6 +101,7 @@
         <a
           href="https://github.com/PrestaShop/user-documentation-fa"
           target="_blank"
+          rel="noreferrer"
         >
           Farsi
         </a>

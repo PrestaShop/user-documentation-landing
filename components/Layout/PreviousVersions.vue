@@ -5,7 +5,11 @@
       <p>
         If you wish to read documentations of versions prior to PrestaShop 1.4,
         send an email to
-        <a href="mailto:documentation@prestashop.com" target="_blank">
+        <a
+          href="mailto:documentation@prestashop.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           documentation@prestashop.com.
         </a>
       </p>

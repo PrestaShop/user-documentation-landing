@@ -4,6 +4,7 @@
     :class="{ 'btn-outline': outline, 'btn-white': white }"
     :href="link"
     :target="target"
+    rel="noreferrer"
   >
     <slot></slot>
   </a>
