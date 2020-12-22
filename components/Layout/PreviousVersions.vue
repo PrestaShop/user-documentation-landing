@@ -18,6 +18,7 @@
         <li>
           <doc-link
             link="https://prestashop.gitbook.io/prestashop-1-6-documentations/"
+            data-aos="fade-down"
           >
             <img src="mini-ps.png" alt="PrestaShop Logo Mini" />
             <p>PrestaShop 1.6 Documentation</p>
@@ -26,6 +27,8 @@
         <li>
           <doc-link
             link="https://prestashop.gitbook.io/prestashop-1-5-documentations/"
+            data-aos="fade-down"
+            data-aos-delay="100"
           >
             <img src="mini-ps.png" alt="PrestaShop Logo Mini" />
             <p>PrestaShop 1.5 Documentation</p>
@@ -34,6 +37,8 @@
         <li>
           <doc-link
             link="https://prestashop.gitbook.io/prestashop-1-4-documentations/"
+            data-aos="fade-down"
+            data-aos-delay="200"
           >
             <img src="mini-ps.png" alt="PrestaShop Logo Mini" />
             <p>PrestaShop 1.4 Documentation</p>

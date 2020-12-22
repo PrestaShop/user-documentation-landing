@@ -1,12 +1,13 @@
 <template>
   <div class="landing-translate">
     <container>
-      <p>
+      <p data-aos="fade-down">
         If you wish to translate PrestaShop software in your language, join the
         community of translators on Crowdin!
       </p>
       <custom-button
         link="https://crowdin.com/project/prestashop-official"
+        data-aos="fade-down"
         white
       >
         Join the community

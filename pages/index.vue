@@ -9,6 +9,8 @@
     <improve />
     <translate />
 
+    <popup />
+
     <template #footer>
       <PreviousVersions />
     </template>

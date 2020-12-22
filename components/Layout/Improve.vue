@@ -1,7 +1,11 @@
 <template>
   <div class="landing-improve">
     <container>
-      <div class="landing-improve-left">
+      <div
+        class="landing-improve-left"
+        data-aos="fade-right"
+        data-aos-anchor-placement="center-bottom"
+      >
         <h2>Improve the documentation ✨</h2>
         <p>
           Just like PrestaShop itself, the documentation is open to everyone for
@@ -14,7 +18,11 @@
           Contribute
         </custom-button>
       </div>
-      <div class="landing-improve-right">
+      <div
+        class="landing-improve-right"
+        data-aos="fade-left"
+        data-aos-anchor-placement="center-bottom"
+      >
         <img src="illustration.svg" alt="Improve PrestaShop" />
       </div>
     </container>
