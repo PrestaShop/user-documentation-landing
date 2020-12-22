@@ -4,8 +4,16 @@
       <logo />
 
       <div class="landing-header-right">
-        <custom-button link="#" outline>Sign up</custom-button>
-        <custom-button link="#">Log in</custom-button>
+        <custom-button
+          link="https://app.gitbook.com/join"
+          target="_self"
+          outline
+        >
+          Sign up
+        </custom-button>
+        <custom-button link="https://app.gitbook.com/login" target="_self">
+          Log in
+        </custom-button>
       </div>
     </container>
   </div>

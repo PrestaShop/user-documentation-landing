@@ -3,7 +3,7 @@
     class="btn"
     :class="{ 'btn-outline': outline, 'btn-white': white }"
     :href="link"
-    target="_blank"
+    :target="target"
   >
     <slot></slot>
   </a>
@@ -26,6 +26,10 @@
       link: {
         type: String,
         default: '#'
+      },
+      target: {
+        type: String,
+        default: '_blank'
       }
     }
   })

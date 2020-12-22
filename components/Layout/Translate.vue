@@ -5,7 +5,12 @@
         If you wish to translate PrestaShop software in your language, join the
         community of translators on Crowdin!
       </p>
-      <custom-button link="#" white>Join the community</custom-button>
+      <custom-button
+        link="https://crowdin.com/project/prestashop-official"
+        white
+      >
+        Join the community
+      </custom-button>
     </container>
   </div>
 </template>

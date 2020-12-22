@@ -12,19 +12,25 @@
 
       <ul class="landing-previous-list">
         <li>
-          <doc-link link="#">
+          <doc-link
+            link="https://prestashop.gitbook.io/prestashop-1-6-documentations/"
+          >
             <img src="mini-ps.png" alt="PrestaShop Logo Mini" />
             <p>PrestaShop 1.6 Documentation</p>
           </doc-link>
         </li>
         <li>
-          <doc-link link="#">
+          <doc-link
+            link="https://prestashop.gitbook.io/prestashop-1-5-documentations/"
+          >
             <img src="mini-ps.png" alt="PrestaShop Logo Mini" />
             <p>PrestaShop 1.5 Documentation</p>
           </doc-link>
         </li>
         <li>
-          <doc-link link="#">
+          <doc-link
+            link="https://prestashop.gitbook.io/prestashop-1-4-documentations/"
+          >
             <img src="mini-ps.png" alt="PrestaShop Logo Mini" />
             <p>PrestaShop 1.4 Documentation</p>
           </doc-link>

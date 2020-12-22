@@ -10,7 +10,9 @@
           documentation.
         </p>
 
-        <custom-button link="#">Contribute</custom-button>
+        <custom-button link="https://prestashop.gitbook.io/howtocontribute/">
+          Contribute
+        </custom-button>
       </div>
       <div class="landing-improve-right">
         <img src="illustration.svg" alt="Improve PrestaShop" />

@@ -5,7 +5,9 @@
       <p>
         In this user documentation, you will discover how to create, maintain,
         and make the most of an online store built using the
-        <a href="#" target="_blank">PrestaShop™ e-commerce solution.</a>
+        <a href="https://www.prestashop.com/en" target="_blank">
+          PrestaShop™ e-commerce solution.
+        </a>
       </p>
     </container>
   </div>
