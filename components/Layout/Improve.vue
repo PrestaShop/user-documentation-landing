@@ -34,6 +34,11 @@
       width: 100%;
     }
 
+    & &-right {
+      max-width: 100%;
+      width: 47.5rem;
+    }
+
     h2 {
       margin-bottom: 3.1rem;
     }
