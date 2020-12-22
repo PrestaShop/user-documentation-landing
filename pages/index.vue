@@ -1,63 +1,72 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">user-documentation-landing</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+  <layout>
+    <template #header>
+      <Header />
+    </template>
+
+    <intro />
+    <docs />
+    <improve />
+    <translate />
+
+    <template #footer>
+      <PreviousVersions />
+    </template>
+  </layout>
 </template>
 
 <script>
-export default {}
+  export default {}
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+<style lang="scss">
+  html,
+  body,
+  textarea {
+    font-family: $font-family;
+  }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+  html {
+    font-size: 10px;
+  }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+  body {
+    font-size: 1.6rem;
+    min-height: 100vh;
+    padding-top: 7rem;
+  }
 
-.links {
-  padding-top: 15px;
-}
+  body,
+  a,
+  span,
+  strong {
+    color: #011638;
+    text-decoration: none;
+  }
+
+  p {
+    color: #7a7a7a;
+  }
+
+  a {
+    color: $link-color;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 3.2rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style-type: none;
+    }
+  }
 </style>

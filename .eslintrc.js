@@ -3,18 +3,30 @@ module.exports = {
   env: {
     browser: true,
     node: true,
+    es6: true,
   },
   parserOptions: {
     parser: 'babel-eslint',
   },
   extends: [
-    '@nuxtjs',
-    'prettier',
+    'prestashop',
+    '@nuxtjs/eslint-config-typescript',
     'prettier/vue',
     'plugin:prettier/recommended',
     'plugin:nuxt/recommended',
   ],
-  plugins: ['prettier'],
+  plugins: ['vue'],
   // add your custom rules here
-  rules: {},
+  rules: {
+    'prettier/prettier': ['error'],
+    'no-unused-labels': 'off',
+  },
+  overrides: [
+    {
+      files: ['*.vue'],
+      rules: {
+        indent: 'off',
+      },
+    },
+  ],
 }
