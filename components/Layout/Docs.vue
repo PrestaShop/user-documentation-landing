@@ -6,37 +6,37 @@
       <ul class="landing-previous-list">
         <li>
           <doc-link link="#">
-            <img src="/us.png" alt="PrestaShop Logo Mini" />
+            <img src="./us.png" alt="PrestaShop Logo Mini" />
             <p>English documentation for PrestaShop 1.7</p>
           </doc-link>
         </li>
         <li>
           <doc-link link="#">
-            <img src="/fr.png" alt="PrestaShop Logo Mini" />
+            <img src="./fr.png" alt="PrestaShop Logo Mini" />
             <p>Documentation en français pour PrestaShop 1.7</p>
           </doc-link>
         </li>
         <li>
           <doc-link link="#">
-            <img src="/es.png" alt="PrestaShop Logo Mini" />
+            <img src="./es.png" alt="PrestaShop Logo Mini" />
             <p>Documentación española para PrestaShop 1.7</p>
           </doc-link>
         </li>
         <li>
           <doc-link link="#">
-            <img src="/it.png" alt="PrestaShop Logo Mini" />
+            <img src="./it.png" alt="PrestaShop Logo Mini" />
             <p>Documentazione italiana per PrestaShop 1.7</p>
           </doc-link>
         </li>
         <li>
           <doc-link link="#">
-            <img src="/ne.png" alt="PrestaShop Logo Mini" />
+            <img src="./ne.png" alt="PrestaShop Logo Mini" />
             <p>Nederlandse documentatie voor PrestaShop 1.7</p>
           </doc-link>
         </li>
         <li>
           <doc-link link="#">
-            <img src="/fa.png" alt="PrestaShop Logo Mini" />
+            <img src="./fa.png" alt="PrestaShop Logo Mini" />
             <p>Farsi PrestaShop 1.7</p>
           </doc-link>
         </li>
