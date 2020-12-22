@@ -13,7 +13,7 @@
         <custom-button link="#">Contribute</custom-button>
       </div>
       <div class="landing-improve-right">
-        <img src="./illustration.svg" alt="Improve PrestaShop" />
+        <img src="illustration.svg" alt="Improve PrestaShop" />
       </div>
     </container>
   </div>

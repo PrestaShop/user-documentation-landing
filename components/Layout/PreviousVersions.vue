@@ -13,19 +13,19 @@
       <ul class="landing-previous-list">
         <li>
           <doc-link link="#">
-            <img src="./mini-ps.png" alt="PrestaShop Logo Mini" />
+            <img src="mini-ps.png" alt="PrestaShop Logo Mini" />
             <p>PrestaShop 1.6 Documentation</p>
           </doc-link>
         </li>
         <li>
           <doc-link link="#">
-            <img src="./mini-ps.png" alt="PrestaShop Logo Mini" />
+            <img src="mini-ps.png" alt="PrestaShop Logo Mini" />
             <p>PrestaShop 1.5 Documentation</p>
           </doc-link>
         </li>
         <li>
           <doc-link link="#">
-            <img src="./mini-ps.png" alt="PrestaShop Logo Mini" />
+            <img src="mini-ps.png" alt="PrestaShop Logo Mini" />
             <p>PrestaShop 1.4 Documentation</p>
           </doc-link>
         </li>
