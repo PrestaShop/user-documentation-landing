@@ -15,30 +15,25 @@
       </p>
 
       <ul class="landing-previous-list">
-        <li>
+        <li data-aos="fade-down">
           <doc-link
             link="https://prestashop.gitbook.io/prestashop-1-6-documentations/"
-            data-aos="fade-down"
           >
             <img src="mini-ps.png" alt="PrestaShop Logo Mini" />
             <p>PrestaShop 1.6 Documentation</p>
           </doc-link>
         </li>
-        <li>
+        <li data-aos="fade-down" data-aos-delay="100">
           <doc-link
             link="https://prestashop.gitbook.io/prestashop-1-5-documentations/"
-            data-aos="fade-down"
-            data-aos-delay="100"
           >
             <img src="mini-ps.png" alt="PrestaShop Logo Mini" />
             <p>PrestaShop 1.5 Documentation</p>
           </doc-link>
         </li>
-        <li>
+        <li data-aos="fade-down" data-aos-delay="200">
           <doc-link
             link="https://prestashop.gitbook.io/prestashop-1-4-documentations/"
-            data-aos="fade-down"
-            data-aos-delay="200"
           >
             <img src="mini-ps.png" alt="PrestaShop Logo Mini" />
             <p>PrestaShop 1.4 Documentation</p>

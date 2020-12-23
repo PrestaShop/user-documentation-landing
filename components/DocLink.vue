@@ -32,6 +32,7 @@
     position: relative;
     transition: 0.25s ease-out;
     min-height: 7.8rem;
+    box-shadow: 0px 0 0 rgba(0, 0, 0, 0);
 
     &:hover {
       box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
