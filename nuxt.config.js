@@ -13,7 +13,7 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
-    title: 'user-documentation-landing',
+    title: 'PrestaShop - User Documentation',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
