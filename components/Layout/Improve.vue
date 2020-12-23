@@ -1,5 +1,5 @@
 <template>
-  <div class="landing-improve">
+  <div class="landing-improve landing-part">
     <container>
       <div
         class="landing-improve-left"
@@ -36,15 +36,34 @@
 <style lang="scss">
   .landing-improve {
     padding: 8rem 0;
+    position: relative;
+
+    @include breakpoint(mobile) {
+      padding: 2.8rem 2rem;
+      padding-bottom: 10rem !important;
+    }
 
     & &-left {
       max-width: 520px;
       width: 100%;
+
+      .btn {
+        @include breakpoint(mobile) {
+          position: absolute;
+          bottom: 3.2rem;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
     }
 
     & &-right {
       max-width: 100%;
       width: 47.5rem;
+
+      img {
+        max-width: 100%;
+      }
     }
 
     h2 {

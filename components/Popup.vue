@@ -66,6 +66,12 @@
     z-index: 998;
     transition: 0.25s ease-out;
 
+    @include breakpoint(mobile) {
+      max-width: calc(100% - 4rem);
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
     &.hidden {
       transform: translateY(-40%);
       opacity: 0;

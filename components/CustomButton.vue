@@ -62,6 +62,16 @@
     &.btn-white {
       background-color: #fff;
       color: $link-color;
+
+      &[data-aos^='fade'].aos-animate {
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+
+    @include breakpoint(tablet) {
+      margin: 0 1rem;
     }
   }
 </style>

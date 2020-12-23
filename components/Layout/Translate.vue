@@ -1,5 +1,5 @@
 <template>
-  <div class="landing-translate">
+  <div class="landing-translate landing-part">
     <container>
       <p data-aos="fade-down">
         If you wish to translate PrestaShop software in your language, join the
@@ -32,6 +32,10 @@
 
     p {
       margin-bottom: 2.4rem;
+
+      @include breakpoint(mobile) {
+        text-align: left;
+      }
     }
   }
 </style>

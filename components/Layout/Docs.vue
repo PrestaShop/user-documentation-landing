@@ -58,55 +58,101 @@
         Each documentation is synchronized with a repository on GitHub. Both
         interfaces are open to contributions. Click on your language to visit
         the corresponding repository:
+        <span class="lang-links">
+          <a
+            href="https://github.com/PrestaShop/user-documentation-en"
+            target="_blank"
+            rel="noreferrer"
+          >
+            English
+          </a>
+          ,
+          <a
+            href="https://github.com/PrestaShop/user-documentation-fr"
+            target="_blank"
+            rel="noreferrer"
+          >
+            French
+          </a>
+          ,
+          <a
+            href="https://github.com/PrestaShop/user-documentation-es"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Spanish
+          </a>
+          ,
+          <a
+            href="https://github.com/PrestaShop/user-documentation-it"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Italian
+          </a>
+          ,
+          <a
+            href="https://github.com/PrestaShop/user-documentation-nl"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Dutch
+          </a>
+          ,
+          <a
+            href="https://github.com/PrestaShop/user-documentation-fa"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Farsi
+          </a>
+          .
+        </span>
+      </p>
+      <div class="lang-link-responsive">
         <a
           href="https://github.com/PrestaShop/user-documentation-en"
           target="_blank"
           rel="noreferrer"
         >
-          English
+          🇺🇸
         </a>
-        ,
         <a
           href="https://github.com/PrestaShop/user-documentation-fr"
           target="_blank"
           rel="noreferrer"
         >
-          French
+          🇫🇷
         </a>
-        ,
         <a
           href="https://github.com/PrestaShop/user-documentation-es"
           target="_blank"
           rel="noreferrer"
         >
-          Spanish
+          🇪🇸
         </a>
-        ,
         <a
           href="https://github.com/PrestaShop/user-documentation-it"
           target="_blank"
           rel="noreferrer"
         >
-          Italian
+          🇮🇹
         </a>
-        ,
         <a
           href="https://github.com/PrestaShop/user-documentation-nl"
           target="_blank"
           rel="noreferrer"
         >
-          Dutch
+          🇩🇪
         </a>
-        ,
         <a
           href="https://github.com/PrestaShop/user-documentation-fa"
           target="_blank"
           rel="noreferrer"
         >
-          Farsi
+          🇮🇷
         </a>
-        .
-      </p>
+      </div>
     </container>
   </div>
 </template>
@@ -120,12 +166,38 @@
     padding: 3.2rem 0;
     text-align: center;
 
+    @include breakpoint(mobile) {
+      padding: 2rem;
+      text-align: left;
+    }
+
     .container {
       max-width: 940px;
+
+      .lang-link-responsive {
+        display: none;
+
+        @include breakpoint(mobile) {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          margin-top: 1.6rem;
+
+          a {
+            font-size: 3.2rem;
+          }
+        }
+      }
 
       > p {
         &:last-of-type {
           margin-top: 2rem;
+        }
+
+        @include breakpoint(mobile) {
+          .lang-links {
+            display: none;
+          }
         }
       }
     }
@@ -135,6 +207,12 @@
       flex-wrap: wrap;
       align-items: flex-start;
       margin-top: 0.8rem;
+
+      > li {
+        @include breakpoint(mobile) {
+          width: 100%;
+        }
+      }
     }
   }
 </style>

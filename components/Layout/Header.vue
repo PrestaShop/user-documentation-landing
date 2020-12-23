@@ -45,12 +45,21 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      align-items: center;
     }
 
     & &-right {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
+
+      .btn {
+        @include breakpoint(tablet) {
+          &:last-of-type {
+            margin-right: 0;
+          }
+        }
+      }
     }
   }
 </style>

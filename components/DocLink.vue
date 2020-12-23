@@ -34,6 +34,11 @@
     min-height: 7.8rem;
     box-shadow: 0px 0 0 rgba(0, 0, 0, 0);
 
+    @include breakpoint(mobile) {
+      width: 100%;
+      margin: 0.6rem 0;
+    }
+
     &:hover {
       box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
     }

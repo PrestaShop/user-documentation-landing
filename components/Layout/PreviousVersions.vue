@@ -1,5 +1,5 @@
 <template>
-  <div class="landing-previous">
+  <div class="landing-previous landing-part">
     <container>
       <h2>User documentations for previous versions of PrestaShop</h2>
       <p>
@@ -53,6 +53,11 @@
     padding: 6.4rem 0;
     text-align: center;
 
+    @include breakpoint(mobile) {
+      text-align: left;
+      padding: 3.2rem 2rem !important;
+    }
+
     .container {
       max-width: 940px;
     }
@@ -66,6 +71,12 @@
       flex-wrap: wrap;
       align-items: flex-start;
       margin-top: 0.8rem;
+
+      li {
+        @include breakpoint(mobile) {
+          width: 100%;
+        }
+      }
     }
   }
 </style>

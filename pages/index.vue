@@ -61,6 +61,10 @@
     font-size: 3.2rem;
     font-family: Montserrat, sans-serif;
     font-weight: 600;
+
+    @include breakpoint(mobile) {
+      font-size: 2.4rem;
+    }
   }
 
   ul {
@@ -69,6 +73,35 @@
 
     li {
       list-style-type: none;
+    }
+  }
+
+  p {
+    a {
+      position: relative;
+
+      &::after {
+        content: '';
+        height: 0.1rem;
+        background: $link-color;
+        width: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 0.25s ease-out;
+      }
+
+      &:hover {
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .landing-part {
+    @include breakpoint(mobile) {
+      padding: 2rem !important;
     }
   }
 </style>

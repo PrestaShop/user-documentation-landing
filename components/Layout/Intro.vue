@@ -1,5 +1,5 @@
 <template>
-  <div class="landing-intro">
+  <div class="landing-intro landing-part">
     <container>
       <h1>Welcome to the PrestaShop documentation site</h1>
       <p>
@@ -27,6 +27,10 @@
     padding: 6.4rem 0;
     text-align: center;
 
+    @include breakpoint(mobile) {
+      text-align: left;
+    }
+
     .container {
       max-width: 940px;
     }
@@ -34,10 +38,15 @@
     h1 {
       margin-bottom: 3.2rem;
       font-size: 3.2rem;
+
+      @include breakpoint(mobile) {
+        font-size: 2.4rem;
+        margin-bottom: 1.6rem;
+      }
     }
 
     a {
-      display: block;
+      display: inline-block;
     }
   }
 </style>

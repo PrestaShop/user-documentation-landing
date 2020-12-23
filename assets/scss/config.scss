@@ -5,3 +5,23 @@ $grey-border: #f1f1f1;
 $link-color: #4932c8;
 
 $font-family: 'Open Sans', sans-serif;
+
+@mixin breakpoint($point) {
+  @if $point == desktop {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  } @else if $point == tablet {
+    @media (max-width: 767px) {
+      @content;
+    }
+  } @else if $point == mobile {
+    @media (max-width: 440px) {
+      @content;
+    }
+  } @else if $point == smallmobile {
+    @media (max-width: 350px) {
+      @content;
+    }
+  }
+}
