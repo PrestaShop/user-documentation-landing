@@ -16,7 +16,7 @@
     "aos": "^3.0.0-beta.6",
     "core-js": "^3.13.1",
     "nuxt": "^2.15.6",
-    "vue": "^2.6.12"
+    "vue": "^2.6.13"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.1",
